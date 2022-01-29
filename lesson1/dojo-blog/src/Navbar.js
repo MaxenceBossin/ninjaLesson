@@ -1,7 +1,7 @@
 // sfc to create new component
 const Navbar = () => {
     return ( 
-        <nav className="navBar">
+        <nav className="navbar">
             <h1>Djow Blog</h1>
             <div className="link">
                 <a href="/">Home</a>   
