@@ -1,5 +1,6 @@
-
 import './App.css';
+import Navbar from './Navbar';
+import Home from './Home';
 
 function App() {
   const title  = 'title'
@@ -8,17 +9,9 @@ function App() {
   const link   = "http://google.com"
   return (
     <div className="App">
+      <Navbar/>
       <div className="content">
-        <h1>{title}</h1>
-        <p>Like : {like} </p>
-        {/* test */}
-        <p>{10}</p>
-        <p>{'string'}</p>
-        <p>[1,array,2]</p>
-        <p>{Math.random() * 10}</p>
-        <p>{person.name}</p>
-        <a href={link}>google</a>
-        
+        <Home/>
       </div>
     </div>
   );
