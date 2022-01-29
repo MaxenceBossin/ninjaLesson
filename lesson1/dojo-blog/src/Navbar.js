@@ -5,7 +5,7 @@ const Navbar = () => {
             <h1>Djow Blog</h1>
             <div className="link">
                 <a href="/">Home</a>   
-                <a href="/create">New</a>   
+                <a className="btn-red" href="/create">New</a>   
             </div>
         </nav>
     );
